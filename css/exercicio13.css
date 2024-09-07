@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+  
+.container {
+    display: flex;
+    gap: 20px;
+}
+  
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+  
+@media (pointer: none) {
+    button {
+      background-color: red;
+      color: white;
+    }
+  
+    button:focus {
+      outline: 3px solid red;
+    }
+}
+  
+  
+@media (pointer: coarse) {
+    button {
+      background-color: orange;
+      color: black;
+    }
+  
+    button:active {
+      background-color: orange;
+      transform: scale(1.1);
+    }
+}
+  
+  
+@media (pointer: fine) {
+    button {
+      background-color: aqua;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+  
+    button:hover {
+      background-color: blue;
+    }
+}
+  

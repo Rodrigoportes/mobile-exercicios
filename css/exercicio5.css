@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.box1 {
+    background-color: blue;
+    width: 30%;
+}
+
+.box2 {
+    background-color: green;
+    width: 60%;
+}
+
+.box3 {
+    background-color: red;
+    width: 90%;
+}
+
+
+@media (max-width: 600px) {
+    .box {
+        width: 80px;
+        height: 80px;
+    }
+}

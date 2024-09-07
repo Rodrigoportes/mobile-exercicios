@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4;
+  padding: 5px 20px;
+}
+
+/* Cabeçalho do projeto */
+header {
+  width: 100%; 
+  background-color: aquamarine;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; 
+}
+
+.logo-marca {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.logo-marca i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.logo-marca span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fa-bars {
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Main do projeto */
+.home {
+  padding: 20px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.home p {
+  font-size: 18px;
+  color: #666;
+}
+
+.container-imagem-texto {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container-imagem-texto h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.container-imagem-texto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.container-imagem-texto p {
+  font-size: 16px;
+  color: #666;
+}
+
+.container-texto-main {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.icons i {
+  font-size: 24px;
+  color: #333;
+  margin: 0 10px;
+}
+
+.texto-botao {
+  text-align: center;
+}
+
+.texto-botao .titulo {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.texto-botao .paragrafo {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.texto-botao .botao {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.texto-botao .botao:hover {
+  background-color: #555;
+}
+
+/* Rodape do projeto */
+.rodape {
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+}
+
+.rodape-inform h1 {
+  font-size: 24px;
+  color: black;
+}
+
+.rodape-inform .paragrafo {
+  font-size: 16px;
+  color: black;
+}
+
+.rodape-form {
+  margin: 20px 0;
+}
+
+.rodape-form h2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.formulario-contato input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.formulario-contato .botao {
+  padding: 10px 20px;
+  color: white;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.formulario-contato .botao:hover {
+  background-color: #555;
+}
+
+.informacao-rodape {
+  font-size: 14px;
+  color: black;
+}
+
+
+
+  

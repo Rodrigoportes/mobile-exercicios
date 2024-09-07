@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import url("Exercicio10pequenastelas.css") screen and (max-width: 600px), (orientation: portrait);
+
+@import url("Exercicio10mediastelas.css") screen and (min-width: 601px) and (max-width: 1024px) and (min-height: 500px);
+
+@import url("Exercicio10grandes telas.css") screen and (min-width: 1025px);

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: auto 1fr auto; 
+    grid-template-areas: 
+        "cabecalho cabecalho cabecalho"
+        "lateral principal extra"
+        "rodape rodape rodape";
+    height: 100vh;
+    gap: 1rem; 
+    padding: 1rem;
+}
+
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #FF6347; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color: #4682B4; 
+    color: white;
+    padding: 1rem;
+}
+
+.principal {
+    grid-area: principal;
+    background-color: #3CB371; 
+    color: white;
+    padding: 1rem;
+}
+
+.extra {
+    grid-area: extra;
+    background-color: #FFD700; 
+    color: black;
+    padding: 1rem;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #6A5ACD; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; 
+        grid-template-areas: 
+            "cabecalho"
+            "principal"
+            "lateral"
+            "extra"
+            "rodape";
+    }
+}

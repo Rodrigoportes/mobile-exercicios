@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 01</title>
+  <link href="css/exercicio1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="fotosContainer">
+    <picture>
+      <source srcset="img/floresta.jpg" media="(max-width: 575px)">
+      <source srcset="img/landscape.jpg" media="(min-width: 576px) and (max-width: 991px)">
+      <source srcset="img/natureza.jpg" media="(min-width: 992px)">
+      <img src="img/natureza.jpg" alt="Imagem alternativa">
+    </picture>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
